@@ -98,5 +98,27 @@ body {
 	cursor: pointer;
 	font-size: 12px;
 	padding: 6px 8px;
+	text-decoration: none;
 	transition: background-color 0.3s ease;
+}
+.project-divide-hr {
+	border: 1px dashed var(--accent-color);
+	margin: 20px 0;
+	opacity: 0.1;
+}
+
+@media (max-width: 900px) {
+	.header-title {
+		font-size: 60px;
+	}
+	.header-discription {
+		font-size: 28px;
+	}
+	.project-section {
+		padding: 70px;
+		text-align: center;
+	}
+	.project-image img {
+		margin: 20px 0;
+	}
 }
