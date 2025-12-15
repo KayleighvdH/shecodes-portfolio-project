@@ -1,1 +1,53 @@
-/* Navigation Bar */
+/* Variables */
+:root {
+    --primary-color: #05402E;
+    --secondary-color: #ff6f61;
+    --accent-color: #f4f4f4;
+
+/* Body */
+body {
+    background-color: var(--primary-color);
+	overflow-x: hidden;
+}
+
+/* Header */
+.header {
+	padding: 130px 20px;
+	text-align: center;
+
+}
+.header-img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+	height: 450px;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	z-index: -1;
+}
+.header-title {
+	color: var(--accent-color);
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.header-discription {
+	color: var(--accent-color);
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.about-btn {
+	background-color: #ff6f61;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+.about-btn:hover {
+    background-color: #e65b50;
+    cursor: pointer;
+}
