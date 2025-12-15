@@ -1,24 +1,24 @@
 /* Variables */
 :root {
-    --primary-color: #05402E;
-    --secondary-color: #ff6f61;
-    --accent-color: #f4f4f4;
+	--primary-color: #05402e;
+	--secondary-color: #ff6f61;
+	--accent-color: #f4f4f4;
+}
 
 /* Body */
 body {
-    background-color: var(--primary-color);
+	background-color: var(--primary-color);
 	overflow-x: hidden;
 }
 
 /* Header */
 .header {
-	padding: 130px 20px;
+	padding: 150px 20px;
 	text-align: center;
-
 }
 .header-img {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-	height: 450px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+	height: 100vh;
 	left: 0;
 	object-fit: cover;
 	position: absolute;
@@ -28,7 +28,7 @@ body {
 }
 .header-title {
 	color: var(--accent-color);
-	font-size: 50px;
+	font-size: 75px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -48,6 +48,55 @@ body {
 	transition: background-color 0.3s ease;
 }
 .about-btn:hover {
-    background-color: #e65b50;
-    cursor: pointer;
+	background-color: #e65b50;
+	cursor: pointer;
+}
+
+/* Project Section */
+.project-section {
+	background-color: var(--primary-color);
+	padding: 30px 120px;
+}
+.project-intro-text {
+	color: var(--accent-color);
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.project-section-hr {
+	border: 1px dashed var(--accent-color);
+	margin: 30px 0;
+}
+.project-information {
+	margin-bottom: 10px;
+	padding: 20px 0;
+}
+.project-image img {
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+.project-discription {
+	color: var(--accent-color);
+}
+.project-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.project-text {
+	font-size: 12px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.project-btn {
+	background-color: var(--primary-color);
+	border: 1px solid var(--secondary-color);
+	border-radius: 5px;
+	color: var(--secondary-color);
+	cursor: pointer;
+	font-size: 12px;
+	padding: 6px 8px;
+	transition: background-color 0.3s ease;
 }
