@@ -3,6 +3,7 @@
 	--primary-color: #05402e;
 	--secondary-color: #ff6f61;
 	--accent-color: #f4f4f4;
+	--box-shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Body */
@@ -17,7 +18,7 @@ body {
 	text-align: center;
 }
 .header-img {
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+	box-shadow: var(--box-shadow-color);
 	height: 100vh;
 	left: 0;
 	object-fit: cover;
@@ -75,7 +76,7 @@ body {
 }
 .project-image img {
 	border-radius: 10px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+	box-shadow: var(--box-shadow-color);
 	text-align: center;
 }
 .project-discription {
@@ -135,6 +136,80 @@ body {
 	background-color: #e65b50;
 }
 
+/* About Me Section */
+.about-me-section {
+	background-color: var(--primary-color);
+	padding: 50px 120px;
+}
+.about-me-heading {
+	color: var(--accent-color);
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.about-me-img {
+	border-radius: 10px;
+	box-shadow: var(--box-shadow-color);
+	margin-bottom: 20px;
+}
+.about-me-text {
+	color: var(--accent-color);
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.about-project-btn {
+	background-color: var(--secondary-color);
+	border: none;
+	border-radius: 5px;
+	color: var(--accent-color);
+	font-size: 16px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+.about-project-btn:hover {
+	background-color: #e65b50;
+	cursor: pointer;
+}
+
+/* Get in Touch Section */
+.contact-section {
+	background-color: #285741;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow-color);
+	margin-top: 30px;
+	padding: 50px 120px;
+	text-align: center;
+}
+.contact-heading {
+	color: var(--accent-color);
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contact-text {
+	color: var(--accent-color);
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.contact-btn {
+	background-color: var(--secondary-color);
+	border: none;
+	border-radius: 5px;
+	color: var(--accent-color);
+	font-size: 16px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+.contact-btn:hover {
+	background-color: #e65b50;
+	cursor: pointer;
+}
+
+/* Responsive Design */
 @media (max-width: 900px) {
 	.header-title {
 		font-size: 60px;
@@ -148,5 +223,15 @@ body {
 	}
 	.project-image img {
 		margin: 20px 0;
+	}
+
+	.about-me-section {
+		font-size: 18px;
+		text-align: center;
+	}
+	.contact-section {
+		font-size: 18px;
+		margin-top: 50px;
+		padding: 30px 50px;
 	}
 }
