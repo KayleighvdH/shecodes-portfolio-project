@@ -209,6 +209,18 @@ body {
 	cursor: pointer;
 }
 
+/* Project Page Section */
+.project-page-information {
+	color: var(--accent-color);
+	margin-bottom: 10px;
+	padding: 20px 0;
+	text-align: center;
+}
+.project-page-title {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
 	.header-title {
