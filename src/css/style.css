@@ -172,6 +172,9 @@ body {
 	background-color: #e65b50;
 	cursor: pointer;
 }
+.shecodes-text {
+	margin-top: 20px;
+}
 
 /* Get in Touch Section */
 .contact-section {
